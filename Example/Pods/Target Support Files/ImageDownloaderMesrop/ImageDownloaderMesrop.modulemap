@@ -1,0 +1,6 @@
+framework module ImageDownloaderMesrop {
+  umbrella header "ImageDownloaderMesrop-umbrella.h"
+
+  export *
+  module * { export * }
+}

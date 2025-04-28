@@ -1,0 +1,6 @@
+framework module Pods_ImageDownloaderMesrop_Example {
+  umbrella header "Pods-ImageDownloaderMesrop_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

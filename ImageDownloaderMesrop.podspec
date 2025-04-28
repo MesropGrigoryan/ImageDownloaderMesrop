@@ -9,16 +9,11 @@
 Pod::Spec.new do |s|
   s.name             = 'ImageDownloaderMesrop'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ImageDownloaderMesrop.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'A lightweight Swift utility for downloading and caching images.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+ ImageDownloader is a lightweight Swift utility that simplifies downloading and caching images from the web.
+  It’s ideal for use in iOS apps where performance and simplicity are key.
                        DESC
 
   s.homepage         = 'https://github.com/MesropGrigoryan/ImageDownloaderMesrop'
@@ -31,6 +26,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'ImageDownloaderMesrop/Classes/**/*'
+  # Source/**/*.{swift,h,m}g
   
   # s.resource_bundles = {
   #   'ImageDownloaderMesrop' => ['ImageDownloaderMesrop/Assets/*.png']

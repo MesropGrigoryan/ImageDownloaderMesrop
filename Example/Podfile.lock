@@ -1,0 +1,16 @@
+PODS:
+  - ImageDownloaderMesrop (0.1.0)
+
+DEPENDENCIES:
+  - ImageDownloaderMesrop (from `../`)
+
+EXTERNAL SOURCES:
+  ImageDownloaderMesrop:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ImageDownloaderMesrop: a4555b4b78f7c7ddcb52f5fcaf175a19ae65fce4
+
+PODFILE CHECKSUM: 0d911195b3f09891a5ec713fad746220d3762fcf
+
+COCOAPODS: 1.16.2
