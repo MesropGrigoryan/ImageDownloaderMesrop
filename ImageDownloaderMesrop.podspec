@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ImageDownloaderMesrop'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A lightweight Swift utility for downloading and caching images.'
 
   s.description      = <<-DESC
@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
 
   s.source_files = '*.swift'
+  s.exclude_files = "Sources/**/Info.plist"
   # Source/**/*.{swift,h,m}g
   
   # s.resource_bundles = {
