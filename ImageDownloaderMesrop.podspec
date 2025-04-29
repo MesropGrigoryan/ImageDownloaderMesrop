@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ImageDownloaderMesrop'
-  s.version          = '0.1.6' # <- Match latest git tag
+  s.version          = '0.1.7' # <- Match latest git tag
   s.summary          = 'A lightweight Swift utility for downloading and caching images.'
 
   s.description      = <<-DESC
@@ -24,7 +24,7 @@ It’s ideal for use in iOS apps where performance and simplicity are key.
   s.ios.deployment_target = '12.0' # <- CocoaPods warns if less than 12.0
   s.swift_version = '5.0'
 
-  s.source_files = 'Sources/ImageDownloaderMesrop/**/*.swift' # <- Correct path
+  s.source_files = '*.swift'
 
   s.exclude_files = ['Example/SupportingFiles/Info.plist', 'Tests/SupportingFiles/Info.plist']
 end
