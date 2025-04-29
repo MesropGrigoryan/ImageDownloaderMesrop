@@ -38,11 +38,9 @@
 /* Begin PBXFileReference section */
 		07A342EC7EE45309FA3CF77EE448D420 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0A9DFE63633ABA800599BD6BC92A02A8 /* Pods-ImageDownloaderMesrop_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageDownloaderMesrop_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		263F0201690CBD17AF86B78856F03483 /* Pods_ImageDownloaderMesrop_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageDownloaderMesrop_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2787CC492C32A684287667C7E111593A /* ImageDownloaderMesrop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageDownloaderMesrop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B6CFCBCF02C072963E45D196994BD69 /* Pods-ImageDownloaderMesrop_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageDownloaderMesrop_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2CB2EFD3F968E2DE9F7F7BB008532F16 /* Pods-ImageDownloaderMesrop_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageDownloaderMesrop_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		337FB40C005CD58A4B8E56197482BA60 /* Pods_ImageDownloaderMesrop_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageDownloaderMesrop_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		346947A4E7300A8993AA0CE3B9C5C95D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		38B8F3FC47D0864D682B957FCFD493E7 /* Pods-ImageDownloaderMesrop_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageDownloaderMesrop_Example-dummy.m"; sourceTree = "<group>"; };
@@ -168,8 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				2787CC492C32A684287667C7E111593A /* ImageDownloaderMesrop.framework */,
-				337FB40C005CD58A4B8E56197482BA60 /* Pods_ImageDownloaderMesrop_Example.framework */,
-				263F0201690CBD17AF86B78856F03483 /* Pods_ImageDownloaderMesrop_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -278,7 +274,6 @@
 			);
 			name = "Pods-ImageDownloaderMesrop_Tests";
 			productName = Pods_ImageDownloaderMesrop_Tests;
-			productReference = 263F0201690CBD17AF86B78856F03483 /* Pods_ImageDownloaderMesrop_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6C7BA9E8367F5BDCC396C5027835120D /* ImageDownloaderMesrop */ = {
@@ -315,7 +310,6 @@
 			);
 			name = "Pods-ImageDownloaderMesrop_Example";
 			productName = Pods_ImageDownloaderMesrop_Example;
-			productReference = 337FB40C005CD58A4B8E56197482BA60 /* Pods_ImageDownloaderMesrop_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,7 +321,7 @@
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 			};
-			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -753,7 +747,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
