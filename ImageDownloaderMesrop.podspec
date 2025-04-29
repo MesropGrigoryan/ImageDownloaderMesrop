@@ -26,8 +26,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
 
-  # s.source_files = '*.swift'
-  s.source_files = 'Sources/**/*.swift'
+  s.source_files = '*.swift'
   s.exclude_files    = ['Example/SupportingFiles/Info.plist', 'Tests/SupportingFiles/Info.plist']
   # Source/**/*.{swift,h,m}g
   
