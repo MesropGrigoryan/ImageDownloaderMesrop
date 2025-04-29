@@ -6,6 +6,7 @@
 //  Copyright © 2025 CocoaPods. All rights reserved.
 //
 
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
