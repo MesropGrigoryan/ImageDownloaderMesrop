@@ -23,7 +23,7 @@ let package = Package(
     targets: [
         .target(
             name: "ImageDownloaderMesrop",
-            path: "Sources/ImageDownloaderMesrop"
+            path: "Example/Sources/ImageDownloaderMesrop"
         ),
         .testTarget(
             name: "ImageDownloaderMesropTests",
